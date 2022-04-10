@@ -1,5 +1,4 @@
 import json
-import matplotlib
 
 
 # reading json
@@ -11,5 +10,3 @@ print(parsedJsonObj["name"])
 pythonObj = { "name": "Dave", "age": 33}
 convJson = json.dumps(pythonObj)
 print(convJson)
-
-print(matplotlib.__version__)
